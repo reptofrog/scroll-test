@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  
+  height: 100%;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.wrapper__container {
+  display: flex;
+  gap: 20rem;
+  overflow-x: scroll;
+  width: 100vw;
+}
+
+.wrapper__container--vertical {
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 25rem;
+}
+
+.wrapper__item {
+  background: grey;
+  padding: 2rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 10rem;
+  font-size: 3rem;
+}
